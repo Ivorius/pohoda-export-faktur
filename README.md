@@ -129,7 +129,7 @@ $pohoda->exportToFile(time(), 'popis', date("Y-m-d_H-i-s"), $errorsNo);
 $pohoda->exportAsString(time(), 'popis', date("Y-m-d_H-i-s"));
 
 // vypsani na obrazovku jako XML s hlavickou
-$pohoda->exportAsXml(time(), 'popis', date("Y-m-d_H-i-s")
+$pohoda->exportAsXml(time(), 'popis', date("Y-m-d_H-i-s"));
 
 
 
