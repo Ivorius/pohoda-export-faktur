@@ -8,7 +8,7 @@ use Pohoda\Validators;
 /**
  * Author: Ivo Toman
  */
-class Address extends Object
+class Address
 {
 
 	private $company;
