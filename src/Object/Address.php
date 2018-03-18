@@ -2,7 +2,6 @@
 
 namespace Pohoda\Object;
 
-use Nette\Object;
 use Pohoda\Validators;
 
 /**
