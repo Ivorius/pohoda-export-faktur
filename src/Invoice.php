@@ -217,7 +217,7 @@ class Invoice
 		if (is_null($value) || !isset($payments[$value])) {
 			throw new InvoiceException($this->getId() . ": payment type $value is not supported. Use one of these: " . explode(",", array_keys($payments)));
 		}
-
+		$this->paymentType=$value;
 	}
 
 	/** @deprecated */
